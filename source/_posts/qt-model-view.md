@@ -3,7 +3,7 @@ title: QTableView获取当前选中行的字段内容
 date: 2019-03-20 08:58:06
 categories: "Qt"
 tags:
-	- Model/View
+	- Qt
 ---
 tips:
 被TM大佬狠批一顿，东厂需要你这样的人才，西厂也需要你这样的人才
