@@ -1,12 +1,11 @@
 ---
-title: win10系统下基于gitblit搭建git服务器
+title: Win10系统下基于gitblit搭建git服务器
 date: 2019-03-10 18:28:21
 categories: "Git"
 tags: 
    - Git
 ---
-
-## 最近刚好有需求需要在windows下搭建一个git服务器，参考了百度上很多篇搭建方法，最后选择用基于java写的gitblit来创建git服务器。
+最近刚好有需求需要在windows下搭建一个git服务器，参考了百度上很多篇搭建方法，最后选择用基于java写的gitblit来创建git服务器。
 <!-- more -->
 ## Gitblit的获取:
 传送门[http://www.gitblit.com/](http://www.gitblit.com/)(Gitblit官网)，

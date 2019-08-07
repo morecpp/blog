@@ -49,9 +49,9 @@ reward_type: 2
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: /img/alipay.png
 # 微信二维码图片地址
-weixin: 
+weixin: /img/weixin.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -72,6 +72,7 @@ favicon: /favicon.png
 #你的头像url
 avatar: /img/avatar.jpg
 
+
 #是否开启分享
 share_jia: true
 
@@ -83,7 +84,7 @@ share_jia: true
 duoshuo: false
 
 #2、网易云跟帖
-wangyiyun: false
+wangyiyun: true
 
 #3、畅言
 changyan_appid: false
@@ -128,6 +129,6 @@ smart_menu:
  
 
 friends:
-  公孙二狗: http://www.qtdebug.com/tags/Ajax/
+  公孙二狗: https://qtdebug.com/qtbook/
 
-aboutme: 小鱼人，<br>毕业于南昌大学，在杭州工作<br><br>热爱编程工作<br/>目前是做C++/Qt界面开发一枚<br/>生命中所有过的灿烂，都需要用寂寞来偿还。<br/><br>碌碌无为，希望学习更多的IT知识。
+aboutme: 小鱼人，<br>毕业于南昌大学，在杭州工作<br><br>热爱编程工作<br/>目前是做C++/Qt界面开发一枚<br/>断剑重铸之日，骑士归来之时。<br/><br>希望学习更多的IT知识。

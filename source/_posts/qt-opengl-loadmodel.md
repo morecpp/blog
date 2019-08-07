@@ -1,9 +1,11 @@
 ---
 title: qt-opengl（五）基于assimp库加载模型
 date: 2019-07-16 20:26:06
+categories: "qt-opengl"
 tags:
+	- qt-opengl
 ---
-能成功导入模型，在这里要感谢坑神、心魔及Icy等等大佬的帮助。作为一个人要去勇敢的尝试自己未知的领域，不要守着自己的一亩三分地，那样只会永远止步不前。失败了不可怕，要有勇气去面对挫折。
+能成功导入模型，在这里要感谢坑神、心魔及Icy等等大佬的帮助。作为一个人要去勇敢的尝试自己未知的领域，不要守着自己的一亩三分地，那样只会永远止步不前。失败了不可怕，要有勇气去面对挫折。<!-- more -->
 ## 效果图
 如果效果图没有出来，请刷新试试
 ![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/opengl/loadengine/helicopter.gif)

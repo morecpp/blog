@@ -5,9 +5,7 @@ categories: "Computer System"
 tags:
   - Computer System 
 ---
-
-# 代码到变成执行文件过程的简介
-以高级C语言为例
+代码到变成执行文件过程的简介，以高级C语言为例
 <!-- more -->
 ```
 #include <stdio.h>
