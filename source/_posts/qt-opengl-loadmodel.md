@@ -7,11 +7,11 @@ tags:
 ---
 能成功导入模型，在这里要感谢坑神、心魔及Icy等等大佬的帮助。作为一个人要去勇敢的尝试自己未知的领域，不要守着自己的一亩三分地，那样只会永远止步不前。失败了不可怕，要有勇气去面对挫折。<!-- more -->
 ## 效果图
-如果效果图没有出来，请刷新试试
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/opengl/loadengine/helicopter.gif)
+&emsp;&emsp;如果效果图没有出来，请刷新试试
+<img src="../image/opengl/loadengine/helicopter.gif">
 
 ## 参考网站
-参考learnopengl的模型加载章节：[**https://learnopengl.com/Model-Loading/Assimp**](https://learnopengl.com/Model-Loading/Assimp)
+&emsp;&emsp;参考learnopengl的模型加载章节：[**https://learnopengl.com/Model-Loading/Assimp**](https://learnopengl.com/Model-Loading/Assimp)
 assimp库怎么导入项目就不赘述，作为一个程序员导入库到项目属于基本操作。
 assimp库的官方网站：[**http://assimp.sourceforge.net/lib_html/index.html**](http://assimp.sourceforge.net/lib_html/index.html)
 该库支持的3D模型文件：
@@ -777,4 +777,4 @@ void LoadEngineWidget::resizeGL(int width, int height)
 
 ```
 ## 总结
-加载模型，主要是通过assimp自己的场景中先解析成它自己的数据结构，然后我们再将这些数据取出来。比如说最基础的网格数据，材质啊，材质包含了环境光、漫反射、镜面反色，还有法线之类的。还有一些其它的数据，可以查阅assimp官网查看接口的用法。opengl的世界很广，有趣的很！最近时间有限，不能再投入时间到opengl上面去了，做到加载模型这一步基本满足我项目的需求了。要忙着赶项目，另外还有更重要的事情去做，要开始研究算法了。等基础算法会了，我再回从新开始研究opengl。
+&emsp;&emsp;加载模型，主要是通过assimp自己的场景中先解析成它自己的数据结构，然后我们再将这些数据取出来。比如说最基础的网格数据，材质啊，材质包含了环境光、漫反射、镜面反色，还有法线之类的。还有一些其它的数据，可以查阅assimp官网查看接口的用法。opengl的世界很广，有趣的很！最近时间有限，不能再投入时间到opengl上面去了，做到加载模型这一步基本满足我项目的需求了。要忙着赶项目，另外还有更重要的事情去做，要开始研究算法了。等基础算法会了，我再回从新开始研究opengl。

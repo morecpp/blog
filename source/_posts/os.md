@@ -17,7 +17,7 @@ int main()
 ```
 
 大部分的现代计算机系统都使用ASCII标准来表示文本字符，这种方式就是用[0 255]的整数值来表示每个字符，下图给出了Hello.c的ASCII码表示：
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/ascii.png)
+<img src="../image/ascii.png">
 hello.c翻译成可执行文件过程可分为四个阶段完成：
 
 * 预处理阶段 。预处理器(cpp)根据以字符#开头的命令，修改原始的C程序。比如hello.c中的第一行的#include <stdio.>命令告诉预预处理器读取系统头文件stdio.h的内容，把它直接插入程序文本中，结果就得到另外一个我们肉眼看不到的完整的C程序，通常是以.i作为文件扩展名。<br />

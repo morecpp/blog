@@ -9,7 +9,7 @@ tags:
 <!-- more -->
 
 ## 选择排序结果图
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/algorithm/select/selectsort.png)
+<img src="../image/algorithm/select/selectsort.png">
 
 ## 实现
 这里用C++来展示
@@ -95,3 +95,6 @@ void main()
 
 ```
 选择排序算是排序里面最垃圾的算法了。
+
+## 来个夜叉大佬的懵逼冒泡排序
+<img src="../image/algorithm/select/mengbi.gif">

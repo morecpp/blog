@@ -7,7 +7,8 @@ tags:
 ---
 利用Qt实现opengl绘制第一个三角形。<!-- more -->
 ## 三角形效果图
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/opengl/triangle/triangle.png)
+
+<img src="../image/opengl/triangle/triangle.png">
 ## triangle.h文件
 ```cpp
 #ifndef TRIANGLE_H
@@ -151,7 +152,7 @@ void TriangleWidget::paintGL()
 }
 ```
 ## 顶点着色器文件
-在项目路径opengl/Resources/shader/triangle.vert创建顶点着色器文件
+&emsp;&emsp;在项目路径opengl/Resources/shader/triangle.vert创建顶点着色器文件
 向该文件写入以下内容
 ```
 #version 330 core
@@ -165,7 +166,7 @@ void main()
 ```
 
 ## 编译着色器文件 (triangle.frag)
-在项目路径opengl/Resources/shader/triangle.frag创建编译着色器文件
+&emsp;&emsp;在项目路径opengl/Resources/shader/triangle.frag创建编译着色器文件
 向该文件写入以下内容
 ```
 #version 330 core
@@ -179,7 +180,7 @@ void main()
 ```
 
 ## 接口函数说明
-在这里主要对opengl的函数作用说明，Qt的封装类我现在还没完全弄明白暂时先放一放...待以后补充。
+&emsp;&emsp;在这里主要对opengl的函数作用说明，Qt的封装类我现在还没完全弄明白暂时先放一放...待以后补充。
 官方接口说明：[**https://www.khronos.org/registry/OpenGL-Refpages/gl4/**](https://www.khronos.org/registry/OpenGL-Refpages/gl4/)
 
 ## void glGenBuffers(GLsizei n, GLuint *buffers);
@@ -223,7 +224,7 @@ Errors
 GL_INVALID_VALUE is generated if n is negative.
 ```
 ## void glBufferData(GLenum target, GLsizeiptr size, const GLvoid *data, GLenum usage);
- 以及 void glNamedBufferData(GLuint buffer, GLsizeiptr size, const void *data, GLenum usage);
+ &emsp;&emsp;以及 void glNamedBufferData(GLuint buffer, GLsizeiptr size, const void *data, GLenum usage);
 ``` 
 Parameters
 target

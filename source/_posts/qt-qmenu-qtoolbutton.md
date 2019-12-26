@@ -8,9 +8,9 @@ tags:
 最近刚好遇到一个需求，点击button弹出一个菜单，这个功能很常见，但是我却还是第一次用，查阅资料，可以有两种方法可以选择，一个是利用QPushButton，另一个是QToolButton，他们都可以将按钮变成菜单按钮。
 <!-- more -->
 ## 效果图
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/Qt/button-menu/menu.gif)
+<img src="../image/Qt/button-menu/menu.gif">
 ## 原理void QToolButton::showMenu()
-Shows (pops up) the associated popup menu. If there is no such menu, this function does nothing. This function does not return until the popup menu has been closed by the user.
+&emsp;&emsp;Shows (pops up) the associated popup menu. If there is no such menu, this function does nothing. This function does not return until the popup menu has been closed by the user.
 同样QPushButton也有同样的接口函数。
 ## 实现
 ```cpp
@@ -105,5 +105,5 @@ QMenu::icon:checked
 }
 ```
 ## 补充
-语言菜单里面的中文跟英文，每次只能选中一个，类似QPushButton的checked独占方式。
+&emsp;&emsp;语言菜单里面的中文跟英文，每次只能选中一个，类似QPushButton的checked独占方式。
 log可以选中跟不选中，不具备独占的方式，更详细的QMenu使用方法可以去查看QMenu的官方例子。

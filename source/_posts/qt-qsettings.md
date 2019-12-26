@@ -9,7 +9,7 @@ tags:
 这里主要介绍我在Win7下用到的操作注册表的使用，Win10安全更高了，感觉在Win10下操作注册表我估计肯定会有权限的问题。
 <!-- more -->
 ## 效果展示
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/Qt/qsettings/regedit.png)
+<img src="../image/Qt/qsettings/regedit.png">
 ## 代码
 ```cpp
 	//操作注册表

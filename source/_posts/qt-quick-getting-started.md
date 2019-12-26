@@ -8,13 +8,13 @@ tags:
 为了在我的QWidget引入qml，直接用VS+Qt来写很麻烦，所以打算直接在QtCreator IDE来先实现然后移植到VS项目下，期间经历了好几次失败，没跑起来，很有挫败感，好在试验了很多次，终于在Qt自带项目的基础上修改，跑起来了我自己写的Qml资源文件。故此把这第一次给记录下来，目前仅仅只是在QtCreator下实现，还没移植。
 <!-- more -->
 ## 说明
-我是在Qt5.9.6版本下的Qt Creator下操作的，编译器为微软的MSVC2015。项目是在Qt自带项目Qt Quick wearable项目的基础上修改的。
+&emsp;&emsp;我是在Qt5.9.6版本下的Qt Creator下操作的，编译器为微软的MSVC2015。项目是在Qt自带项目Qt Quick wearable项目的基础上修改的。
 
 ## 运行图
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/Qt/quick/getting-started/run.png)
+<img src="../image/Qt/quick/getting-started/run.png">
 
 ## wearable.cpp的修改
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/Qt/quick/getting-started/wearable.png)
+<img src="../image/Qt/quick/getting-started/wearable.png">
 把wearable.cpp源码也贴上吧
 ```CPP
 #include <QGuiApplication>
@@ -61,4 +61,4 @@ Window {
 ```
 之前尝试用Rectange，Image都不行，原来这个主窗口，需要用Window来搞。
 ## 万事开头难
-后面好了，可以尝试更多的qml玩法，会发布更多的实际使用效果。
+&emsp;&emsp;后面好了，可以尝试更多的qml玩法，会发布更多的实际使用效果。

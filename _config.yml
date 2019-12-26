@@ -89,8 +89,14 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:xiaoyuren8/xiaoyuren8.github.io.git 
-  branch: master
+  ## repository: git@github.com:xiaoyuren8/xiaoyuren8.github.io.git 
+  ## repository: https://git.coding.net/xiaoyuren/xiaoyuren.git
+  ## branch: master
+  repo:
+      github: git@github.com:xiaoyuren8/xiaoyuren8.github.io.git,master
+      coding: git@git.coding.net:xiaoyuren/xiaoyuren.git,master 
+  
+
 
 live2d:
       enable: true

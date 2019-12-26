@@ -7,8 +7,8 @@ tags:
 ---
 发现自己并不适合讲这个，理解的并不深，做成这个纹理贴图要感谢TM大佬的帮助<!-- more -->
 ## 效果图
-如果这个box.gif图不会动，刷新试试。
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/opengl/texture/box.gif)
+&emsp;&emsp;如果这个box.gif图不会动，刷新试试。
+<img src="../image/opengl/texture/box.gif">
 
 ## carmera.h头文件 
 不要在意类的叫法，当时我可能看到相机模块吧，索性还是用这个名字吧。
@@ -50,7 +50,7 @@ private:
 ```
 
 ## carmera.cpp头文件
-纹理用了两张图叠加的效果
+&emsp;&emsp;纹理用了两张图叠加的效果
 ```cpp
 #include "camera.h"
 #include <QOPenglTexture>
@@ -320,8 +320,8 @@ void main()
 ```
 
 ## 用到的贴图资源
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/opengl/texture/container.jpg)
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/opengl/texture/yu.jpg)
+<img src="../image/opengl/texture/container.jpg">
+<img src="../image/opengl/texture/yu.jpg">
 
 ## 注意事项
-上面用到着色器跟纹理贴图的路径都是在项目的相对路径下。可以定义自己的相对路径。
+&emsp;&emsp;上面用到着色器跟纹理贴图的路径都是在项目的相对路径下。可以定义自己的相对路径。

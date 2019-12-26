@@ -8,13 +8,13 @@ tags:
 修改
 ***
 如下图这是一张蓝色的SVG图
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/svg/sort-down-blue.png)
+<img src="../image/svg/sort-down-blue.png">
 用VisualStudio Code编辑器打开这张SVG，可以看到，这张图由代码构成，找到 path下的 `style = "fill:#xxxxxx"`，如果没有这一项，需要手动添加进去。
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/svg/code-blue.png)
+<img src="../image/svg/code-blue.png">
 修改style的rgb颜色值，将改成红色
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/svg/code-red.png)
+<img src="../image/svg/code-red.png">
 最后我们可以看到svg图片成功由蓝色变成了红色
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/svg/sort-down-red.png)
+<img src="../image/svg/sort-down-red.png">
 ***
 这里给大家分享一个我平时比较喜欢去的网站下载svg图片，里面有很多资源。
 [`https://www.flaticon.com`](https://www.flaticon.com)

@@ -9,9 +9,9 @@ tags:
 
 ## 效果图
 静态图：
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/Qt/qss/programSwitch.png)
+<img src="../image/Qt/qss/programSwitch.png">
 动图：
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/Qt/qss/programSwitch.gif)
+<img src="../image/Qt/qss/programSwitch.gif">
 ## qss实现
 ```
 QPushButton#programButton1

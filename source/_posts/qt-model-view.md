@@ -8,7 +8,7 @@ tags:
 tips:
 被TM大佬狠批一顿，东厂需要你这样的人才，西厂也需要你这样的人才
 <!-- more -->
-![](https://raw.githubusercontent.com/xiaoyuren8/xiaoyuren8.github.io/master/image/Qt/ModelView/tm.png)
+<img src="../image/Qt/ModelView/tm.png">
 
 获取当前行号：
 <pre>
