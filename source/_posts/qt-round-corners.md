@@ -57,6 +57,14 @@ tags:
 * 另外Ui的最外围容器QWidget的QSS设置 `border:none;`
 至此圆角界面真的很圆了。
 
+## 顽固的QWebEngineView
+碰到这家伙，我尝试用QSS border属性去修饰它，发现根本不起效果。最后去看了下它的父辈，原来继承自QWidget，真是有其父必有其子，总算明白为什么这家伙这么顽固了。
+<img src="../image/Qt/round/web.png">
+可以看到ui设计里面它还是直的，最后我曲线救国，在外面套个QGroupBox，让QGroupBox进行圆滑处理，另外QWwebEngineView加载执行后，背景色变成了最黑的那种，就是
+rgb(0,0,0)，那我也把QGroupBox做成最黑。最后得到这样的效果，最后也得到了圆角效果，我称它为伪圆角界面。看看最后的效果吧：
+<img src="../image/Qt/round/web.gif">
+
+
 
 
 

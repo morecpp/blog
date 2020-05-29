@@ -3,7 +3,7 @@ title: Qt 利用QSS在button里面显示多张图
 date: 2019-08-05 14:45:27
 categories: "Qt"
 tags:
-	- Qt-qss
+	- qss
 ---
 之前用绘制手段实现了这个效果，操作麻烦，费时费力。现在直接用QPushButton + qss就达到了这样的效果。<!-- more -->
 

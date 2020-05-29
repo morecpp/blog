@@ -1,9 +1,9 @@
 ---
 title: 算法 （二） 堆排序
 date: 2019-07-17 22:08:31
-categories: "algorithms"
+categories: "Algorithms"
 tags:
-	- algorithms
+	- Algorithms
 ---
 （**二叉**）**堆**是一个数组，它可以被看成一个近似的完全二叉树。堆排序的时间复杂度是**O(nlgn)**。堆排序具有空间原址性质，任何时候只要常数个额外的元素空间存储临时数据。<!-- more -->
 ## 二叉树和数组的展示
