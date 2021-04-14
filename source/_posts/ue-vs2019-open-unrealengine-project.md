@@ -39,8 +39,33 @@ SSH协议下载：[**git@github.com:EpicGames/UnrealEngine.git**](git@github.com
 <img src="../image/ue/vsproject/project1.png">
 编译了快半个小时了还没有编译好，果然要编译30~40分钟，ue不曾欺我。好了就到这里了，项目编译看到了两个错误了。
 
+编译了好久感觉有好几个小时，隔天终于运行起来，还好那两个错误没有影响到软件跑起来，这个是运行起来的初始画面。
+第一次运行需要编译着色器，后面就不用了。万里长征跨出了第一步，希望未来能迈出更多几步。
 
+<img src="../image/ue/vsproject/startPage.png">
 
+## 项目设置（附录）
+为了防止将来官网文档变动，我决定还是先抄一遍下来。
+* 1、双击运行UE4.sln
+* 2、将解决方案配置设置为 开发编辑器（Development Editor）。
+
+<img src="../image/ue/vsproject/configMenu_updated.png">
+
+* 3、将解决方案平台设置为 Win64
+
+<img src="../image/ue/vsproject/platform_menu_updated.png">
+
+* 4、右键单击UE4目标并选择 构建（Build）
+
+<img src="../image/ue/vsproject/BuildUE4.png">
+
+* 5、将启动项目设置为 UE4
+
+<img src="../image/ue/vsproject/SetUE4_StartPrj.png">
+
+* 6、右键单击 UE4 项目，将鼠标悬停于“Debug” 上，然后 单击“启动新实例（Start New Instance）” 以启动编辑器
+
+<img src="../image/ue/vsproject/RunCompiledWindowsEditor.png">
 
 
 

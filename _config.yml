@@ -94,8 +94,11 @@ deploy:
   ## branch: master
   repo:
       github: git@github.com:xiaoyuren8/xiaoyuren8.github.io.git,master
-      coding: git@git.coding.net:xiaoyuren/xiaoyuren.git,master 
-  
+      ##coding: git@git.coding.net:xiaoyuren/xiaoyuren.git,master 
+      ##coding: git@e.coding.net:xiaoyuren/xiaoyuren.git,master
+      ##gitee: https://gitee.com/morecpp/morecpp.git,master
+      #repository: git@121.41.202.112:/home/git/repos/blog.git,master
+      repository: git@121.41.202.112:/home/git/blog.git,master
 
 
 live2d:
