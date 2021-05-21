@@ -1,5 +1,5 @@
 ---
-title: UnrealEngine Niagara模块中的Sprite粒子效果
+title: UnrealEngine Niagara模块中的Sprite粒子效果 （CPU上跑）
 date: 2021-05-21 08:41:48
 categories: "Niagara"
 tags:
