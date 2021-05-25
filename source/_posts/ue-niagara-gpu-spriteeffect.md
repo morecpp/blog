@@ -8,16 +8,16 @@ tags:
 在GPU上跑粒子效果
 <!-- more -->
 ## 效果图
+<img src="../image/ue/niagara/gpusprite/screen1.png">
+
+<img src="../image/ue/niagara/gpusprite/screen2.png">
+
+## 效果视频
 {% raw %}
 <div style="position:relative; padding-bottom:75%; width:100%; height:0">
     <iframe src="https://www.bilibili.com/video/BV1m5411u7Xe?share_source=copy_web" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe>
 </div>
 {% endraw %}
-
-## 截图
-<img src="../image/ue/niagara/gpusprite/screen1.png">
-
-<img src="../image/ue/niagara/gpusprite/screen2.png">
 
 ## 官方文档
 **传送门:**[**https://docs.unrealengine.com/zh-CN/RenderingAndGraphics/Niagara/HowTo/GPUParticles/index.html**](https://docs.unrealengine.com/zh-CN/RenderingAndGraphics/Niagara/HowTo/GPUParticles/index.html);
